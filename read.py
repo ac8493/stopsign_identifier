@@ -2,7 +2,6 @@ import cv2
 from matplotlib import pyplot as plt
 
 img = cv2.imread("image2.jpeg")
-print("hello :)")
 
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
